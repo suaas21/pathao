@@ -31,5 +31,10 @@ jobs:
       - name: Run the project with databases
         run: |
           make serve
+          sleep 180s
+      - name: test api server ok
+        run: |
+          curl --request GET --url http://localhost:8080/api/v1/public/ok --header 'Content-Type: application/json'
+          
           
           
