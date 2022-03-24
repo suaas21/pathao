@@ -75,3 +75,7 @@ curl --request POST \
 --header 'Content-Type: application/json' \
 --data '{"query":"query {\n\tusers(id: \"ab921b81-5c5c-4617-b274-69820a527327\") {\n\t\tid\n\t\tfullName\n\t\ttime\n\t}\n}\n"}'
 ```
+
+## TODO
+- need more improvement in ci/cd process
+- need to add migration command beside serve to create database collection automatically if not created.
