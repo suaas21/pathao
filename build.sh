@@ -19,7 +19,7 @@ if ! [ -x "$(command -v git)" ]; then
     exit 1
 fi
 
-echo "set GOPATH"
+echo "setting GOPATH"
 
 if [ -z "${GOPATH}" ]; then
     echo "set GOPATH"
