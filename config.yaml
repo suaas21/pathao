@@ -7,7 +7,5 @@ arango:
   db_user: "root"
   db_password: "admin"
   db_name: "_system"
-  db_book_collection: "Book"
-  db_author_collection: "Author"
 sentry:
   dsn: ""

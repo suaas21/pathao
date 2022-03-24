@@ -1,5 +1,10 @@
 # GraphQl pathao project
 
+## Prerequisites
+- [go-chi](github.com/go-chi/chi)
+- [graphql api](github.com/graphql-go/graphql)
+- [Database ArangoDB](https://www.arangodb.com/)
+
 ## Start Api
 
 ## Build
@@ -35,6 +40,21 @@ $ make serve
 
 
 ## User API:
+
+**Quick start :**
+
+Deploy app server and database server using docker compose
+```bash
+$ make build
+$ make server
+```
+
+Wait a few minutes for two server going to server. App serve may be re-started for accessing db server.
+When two server have gone to functional then you need to create database `collection` using ArandoDB UI
+
+**Create DB Collection :**
+- go to [DB UI](http://localhost:8529/_db/_system/_admin/aardvark/index.html#collections)
+- create `User` collection 
 
 **Mutation :**
 
